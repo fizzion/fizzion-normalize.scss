@@ -1,0 +1,21 @@
+/* ==========================================================================
+   Legacy Grouping content
+
+   Normalize styling of grouping content for legacy browsers.
+   ========================================================================== */
+
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+
+pre {
+  overflow: auto;
+}
