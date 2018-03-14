@@ -1,5 +1,14 @@
 # normalize.css
 
+## Fizzion specific customizations
+
+`$base-font-size` : Base font-size as a percentage, applied to the root.
+Defaults to `100%`.
+
+`$base-line-height`: Base line-heigath as unitless ratio, applied to the root.
+Defaults to `1.15`.
+
+
 <a href="https://github.com/necolas/normalize.css"><img
   src="https://necolas.github.io/normalize.css/logo.svg" alt="Normalize Logo"
   width="80" height="80" align="right"></a>
