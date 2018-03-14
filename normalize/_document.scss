@@ -6,6 +6,7 @@
 
 $base-font-size: 100% !default;
 $base-line-height: 1.15 !default;
+$base-font-family: Times, serif !default;
 
 /**
  * 1. Correct the line height in all browsers.
@@ -13,6 +14,7 @@ $base-line-height: 1.15 !default;
  */
 
 html {
+  font-family: $base-font-family;
   font-size: $base-font-size;
   line-height: $base-line-height; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
