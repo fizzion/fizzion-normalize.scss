@@ -1,14 +1,11 @@
 /*! @fizzion/normalize.scss v8.0.0-beta.1 | MIT License |
     github.com/fizzion/fizzion-normalize.scss */
 
-$base-font-size: 100% !default;
-$base-line-height: 1.15 !default;
-
-@import './normailze/document.scss';
-@import './normailze/sections.scss';
-@import './normailze/grouping-content.scss';
-@import './normailze/text-level-semantics.scss';
-@import './normailze/embedded-content.scss';
-@import './normailze/forms.scss';
-@import './normailze/interactive.scss';
-@import './normailze/misc.scss';
+@import './normalize/document.scss';
+@import './normalize/sections.scss';
+@import './normalize/grouping-content.scss';
+@import './normalize/text-level-semantics.scss';
+@import './normalize/embedded-content.scss';
+@import './normalize/forms.scss';
+@import './normalize/interactive.scss';
+@import './normalize/misc.scss';
