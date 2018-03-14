@@ -4,29 +4,9 @@
   "description": "Normalize.css as a node packaged module using scss",
   "main": "_normalize.scss",
   "style": "_normalize.scss",
-  "files": [
-    "LICENSE.md",
-    "_normalize.scss",
-    "normailze/_document.scss",
-    "normailze/_sections.scss",
-    "normailze/_grouping-content.scss",
-    "normailze/_text-level-semantics.scss",
-    "normailze/_embedded-content.scss",
-    "normailze/_forms.scss",
-    "normailze/_interactive.scss",
-    "normailze/_misc.scss",
-    "normailze/legacy/_html5-dispaly.scss",
-    "normailze/legacy/_anchors.scss",
-    "normailze/legacy/_text-level-semantics.scss",
-    "normailze/legacy/_embedded-content.scss",
-    "normailze/legacy/_grouping-content.scss",
-    "normailze/legacy_forms.scss",
-    "normailze/legacy/_tables.scss"
-  ],
-  "homepage": "http://necolas.github.io/normalize.css",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/necolas/normalize.css.git"
+  "devDependencies": {
+    "stylelint": "^7.9.0",
+    "stylelint-config-standard": "^16.0.0"
   },
   "main": "_normalize.scss",
   "author": [
