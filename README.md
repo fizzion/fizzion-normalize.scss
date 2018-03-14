@@ -5,8 +5,10 @@
 `$base-font-size` : Base font-size as a percentage, applied to the root.
 Defaults to `100%`.
 
-`$base-line-height`: Base line-heigath as unitless ratio, applied to the root.
-Defaults to `1.15`.
+`$base-line-height`: Base line-height as unitless ratio, applied to the root.
+
+`$base-font-family`: Base font-family stack, applied to the root.  Defaults to
+`Times, serif`.
 
 
 <a href="https://github.com/necolas/normalize.css"><img
