@@ -2,8 +2,8 @@
 
 ## Fizzion specific customizations
 
-`$base-font-size` : Base font-size as a percentage, applied to the root.
-Defaults to `100%`.
+`$base-font-size` : Base font-size as a unitless pixel value, applied to the
+root.  Defaults to `16`.
 
 `$base-line-height`: Base line-height as unitless ratio, applied to the root.
 
