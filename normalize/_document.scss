@@ -15,7 +15,7 @@ $base-font-family: Times, serif !default;
 
 html {
   font-family: $base-font-family;
-  font-size: percentage($base-font-size / 16)$base-font-size;
+  font-size: percentage($base-font-size / 16);
   line-height: $base-line-height; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
