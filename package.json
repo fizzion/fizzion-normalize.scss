@@ -1,6 +1,6 @@
 {
   "name": "fizzion-normalize",
-  "version": "8.0.0-beta.2",
+  "version": "8.0.0-beta.3",
   "description": "Normalize.css as a node packaged module using scss",
   "main": "main.scss",
   "style": "main.scss",
