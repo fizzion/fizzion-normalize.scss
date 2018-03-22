@@ -1,9 +1,12 @@
-# normalize.css
+# Fizzion Normalize
+
+Customizable version of normalize built in Sass. It uses Sass's `!default`
+syntax to include costumizable defaults.
 
 ## Fizzion specific customizations
 
-`$base-font-size` : Base font-size as a percentage, applied to the root.
-Defaults to `100%`.
+`$base-font-size` : Base font-size as a unitless pixel value, applied to the
+root.  Defaults to `16`.
 
 `$base-line-height`: Base line-height as unitless ratio, applied to the root.
 
@@ -11,15 +14,12 @@ Defaults to `100%`.
 `Times, serif`.
 
 
-<a href="https://github.com/necolas/normalize.css"><img
-  src="https://necolas.github.io/normalize.css/logo.svg" alt="Normalize Logo"
-  width="80" height="80" align="right"></a>
+## normalize.css
 
 > A modern alternative to CSS resets
 
 [![npm][npm-image]][npm-url] [![license][license-image]][license-url]
 [![changelog][changelog-image]][changelog-url]
-[![gitter][gitter-image]][gitter-url]
 
 
 **NPM**
@@ -105,9 +105,7 @@ contribution process easy and effective for everyone involved.
 
 [changelog-image]: https://img.shields.io/badge/changelog-md-blue.svg?style=flat-square
 [changelog-url]: CHANGELOG.md
-[license-image]: https://img.shields.io/npm/l/normalize.css.svg?style=flat-square
+[license-image]: https://img.shields.io/npm/l/fizzion-normalize.svg?style=flat-square
 [license-url]: LICENSE.md
-[npm-image]: https://img.shields.io/npm/v/normalize.css.svg?style=flat-square
-[npm-url]: https://www.npmjs.com/package/normalize.css
-[gitter-image]: https://img.shields.io/badge/chat-gitter-blue.svg?style=flat-square
-[gitter-url]: https://gitter.im/necolas/normalize.css
+[npm-image]: https://img.shields.io/npm/v/fizzion-normalize.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/fizzion-normalize
