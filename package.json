@@ -4,14 +4,12 @@
   "description": "Normalize.css as a node packaged module using scss",
   "main": "main.scss",
   "style": "main.scss",
-  "devDependencies": {
-    "stylelint": "^7.9.0",
-    "stylelint-config-standard": "^16.0.0"
-  },
-  "main": "_normalize.scss",
   "author": [
     "Nicolas Gallagher",
     "Alex Lemanski"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "fizzion/fizzion-normalize.scss",
+  "bugs": "https://github.com/fizzion/fizzion-normalize.scss/issues",
+  "homepage": "https://github.com/fizzion/fizzion-normalize.scss",
 }
