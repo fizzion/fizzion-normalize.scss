@@ -11,5 +11,9 @@
   "license": "MIT",
   "repository": "fizzion/fizzion-normalize.scss",
   "bugs": "https://github.com/fizzion/fizzion-normalize.scss/issues",
-  "homepage": "https://github.com/fizzion/fizzion-normalize.scss"
+  "homepage": "https://github.com/fizzion/fizzion-normalize.scss",
+  "devDependencies": {
+    "sass": "^1.34.1",
+    "sass-true": "^6.0.1"
+  }
 }
