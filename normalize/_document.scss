@@ -3,6 +3,7 @@
 
    Document styling normalization.
    ========================================================================== */
+@use 'sass:math';
 
 $base-font-size: 16 !default;
 $base-line-height: 1.15 !default;
@@ -15,7 +16,7 @@ $base-font-family: Times, serif !default;
 
 html {
   font-family: $base-font-family;
-  font-size: percentage($base-font-size / 16);
+  font-size: percentage(math.div($base-font-size, 16));
   line-height: $base-line-height; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
